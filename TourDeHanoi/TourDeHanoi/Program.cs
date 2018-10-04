@@ -8,8 +8,8 @@ namespace TourDeHanoi
 {
     class Program
     {
+        // debut du programme 
         static int Compte;
-
         static int[,] InitHanoi()
         {
             Compte = 0;
