@@ -10,7 +10,7 @@ namespace ascii
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = System.Text.Encoding.GetEncoding(28591);
+            Console.OutputEncoding = System.Text.Encoding.GetEncoding(437);
             for (int i = 0; i < 256; i++)
 			{
 			    Console.WriteLine(i+" => "+(char)i);
